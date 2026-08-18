@@ -1,12 +1,13 @@
 {
   "name": "desafio-arquitetura-ia-boilerplate",
   "version": "1.0.0",
-  "description": "Boilerplate com código legado para refatoração",
+  "description": "LMS API refatorada para MVC",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.18.2",
     "sqlite3": "^5.1.6"
   }
